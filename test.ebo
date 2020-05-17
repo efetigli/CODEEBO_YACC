@@ -1,0 +1,29 @@
+a=1;
+b=2;
+c=7;
+d=9;
+
+
+if a == 1:
+    b = b +1;
+    a = 3;
+endif;
+
+call print(a);
+call print(b);
+
+while c == 7: 
+    c = 3;
+endwhile;
+
+call print(c);
+
+a=1;
+
+if a==2: 
+	call print(1);
+else 
+	call print(4);
+
+endif;
+
